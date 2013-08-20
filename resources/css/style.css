@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #EEE;
+    background: url('/resources/images/titania-logo-wp.jpg');
+    background-size: 100%;
+}
+
+#overlay {
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#area {
+    width:800px;
+    margin: auto;
+    padding: 8px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+h2 {
+    font-family: "Segoe UI";
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+#subarea {
+    width: 800px;
+    margin: auto;
+}
+
+p{
+    margin:16px 4px 4px 4px;
+    font-family: Segoe Ui;
+}
